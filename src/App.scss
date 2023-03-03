@@ -10,6 +10,10 @@
 body{
     background-color: rgb(222, 221, 221);
     font-family: 'Roboto', sans-serif;
+    overflow: scroll;
+    &.lock{
+        overflow: hidden;
+    }
 }
 .wrapper{
     max-width: 1200px;
